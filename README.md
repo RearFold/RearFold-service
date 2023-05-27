@@ -18,14 +18,13 @@
 
 ---
 
+- [x] 📣 Initialize RFai
 ## Code and Data
-- [x] 📣 Detector Server **highly!**
-- [x] 📣 Event Generator
-- [x] 📣 RTSP Server
-- [x] 📣 C# 3D Simulator. **highly!**
-- [x] Docker image for ISON Project. 
-- [x] Automatically run at desktop startup
-- [ ] Release of the ISON Site
+- [ ] 📣 YOLOv8 inference Class modulation **highly!**
+- [ ] 📣 Set API Type
+- [ ] 📣 BentoML **highly!**
+- [ ] Docker image for BentoML
+- [ ] Release
 
 ---
 ## Installation
