@@ -1,6 +1,6 @@
-service: "service:svc"  # Same as the argument passed to `bentoml serve`
+service: "rfai_service:svc"  # Same as the argument passed to `bentoml serve`
 labels:
-   owner: da2so
+   owner: ljj
    stage: dev
 include:
 - "*.py"  # A pattern for matching which files to include in the bento
@@ -11,12 +11,12 @@ python:
     packages:
     - torch
     - torchvision
-    - PyYAML==6.0
+    - PyYAML
     - loguru
-    - pandas==1.5.2
-    - Pillow==9.3.0
-    - numpy==1.23.5
-    - opencv-python==4.5.3.56
+    - pandas
+    - Pillow
+    - numpy
+    - opencv-python
     - thop
     - py-cpuinfo
     - psutil
@@ -24,8 +24,9 @@ python:
     - tensorboard==2.8.0
     - pybboxes==0.1.6
     - tqdm
+    - ultralytics
 docker:
-    distro: ubuntu
+    distro: debian
     python_version: "3.10"
     cuda_version: "11.7.0"
     setup_script: "./setup.sh"
