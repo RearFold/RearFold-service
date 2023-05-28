@@ -1,5 +1,6 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from pathlib import Path
+
 import pkg_resources as pkg
 FILE = Path(__file__).resolve()
 PARENT = FILE.parent  # root directory
@@ -14,7 +15,8 @@ setup(
     author='kaejong2',
     author_email="kaejong2@gmail.com",
     license='ljj',
-    packages=['rfai'],
+    packages=find_packages(),
+    include_package_data=True,
     zip_safe=False,
     install_requires=REQUIREMENTS
 )
