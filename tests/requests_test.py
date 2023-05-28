@@ -7,7 +7,7 @@ import cv2
 import numpy as np
 
 
-API_URI = "http://0.0.0.0:3002/predict"
+API_URI = "http://0.0.0.0:3000/predict"
 IMG_PATH = '/home/jin/workspace/RealFold-AI/assets/truck.jpg'
 
 data = subprocess.run(shlex.split(f"curl -F 'fileobj=@{IMG_PATH};type=image/jpeg' {API_URI}"), stdout=subprocess.PIPE).stdout
