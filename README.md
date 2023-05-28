@@ -50,7 +50,7 @@ bentoml serve rfai_service:svc -p {your_port}
 python bento_packer.py
 bentoml build
 bentoml containerize yolov8s_svc:latest
-docker run -it --rm -p 3000:3000 yolov8s_svc:latest serve
+docker run -it -d --rm --gpus="device=0" -p 3000:3000 yolov8s_svc:latest serve
 ```
 <p align="center">
     <a href="https://github.com/snuailab-biz/ison-dev/blob/main/docs/excutable_guide.md">Usage</a>
