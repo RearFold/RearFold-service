@@ -9,14 +9,13 @@ REQUIREMENTS = [f'{x.name}{x.specifier}' for x in pkg.parse_requirements((PARENT
 
 setup(
     name = 'rfai',
-    version = '0.0.2',
-    description='setup pip install test',
+    version = '0.0.4',
+    description='setup rfai install.',
     url='https://github.com/RearFold/RearFold-AI.git',
     author='kaejong2',
     author_email="kaejong2@gmail.com",
     license='ljj',
     packages=find_packages(),
     include_package_data=True,
-    zip_safe=False,
     install_requires=REQUIREMENTS
 )
