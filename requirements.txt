@@ -1,1 +1,12 @@
 opencv-python
+pillow
+PyYaml
+requests
+scipy
+torch
+torchvision
+matplotlib
+tqdm
+
+ultralytics
+bentoml==1.0.19
