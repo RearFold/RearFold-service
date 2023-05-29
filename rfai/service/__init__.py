@@ -1,1 +1,1 @@
-from .bento_packer import rfai_pack
+from .yolov8_pack import rfai_pack
