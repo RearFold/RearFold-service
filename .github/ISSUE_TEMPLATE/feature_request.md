@@ -1,5 +1,5 @@
 name: 🚀 Feature Request
-description: Suggest a YOLOv8 idea
+description: Suggest a RearFold idea
 # title: " "
 labels: [enhancement]
 body:
@@ -12,10 +12,10 @@ body:
     attributes:
       label: Search before asking
       description: >
-        Please search the [issues](https://github.com/ultralytics/ultralytics/issues) to see if a similar feature request already exists.
+        Please search the [issues](https://github.com/RearFold/RearFold-AI/issues) to see if a similar feature request already exists.
       options:
         - label: >
-            I have searched the YOLOv8 [issues](https://github.com/ultralytics/ultralytics/issues) and found no similar feature requests.
+            I have searched the YOLOv8 [issues](https://github.com/RearFold/RearFold-AI/issues) and found no similar feature requests.
           required: true
 
   - type: textarea
@@ -44,7 +44,6 @@ body:
     attributes:
       label: Are you willing to submit a PR?
       description: >
-        (Optional) We encourage you to submit a [Pull Request](https://github.com/ultralytics/ultralytics/pulls) (PR) to help improve YOLOv8 for everyone, especially if you have a good understanding of how to implement a fix or feature.
-        See the YOLOv8 [Contributing Guide](https://docs.ultralytics.com/help/contributing) to get started.
+        (Optional) We encourage you to submit a [Pull Request](https://github.com/RearFold/RearFold-AI/pulls) (PR) to help improve YOLOv8 for everyone, especially if you have a good understanding of how to implement a fix or feature.
       options:
         - label: Yes I'd like to help by submitting a PR!
