@@ -1,49 +1,20 @@
-name: 🚀 Feature Request
-description: Suggest a RearFold idea
-# title: " "
-labels: [enhancement]
-body:
-  - type: markdown
-    attributes:
-      value: |
-        Thank you for submitting a RearFold 🚀 Feature Request!
+---
+name: Feature request
+about: Suggest an idea for this project
+title: ''
+labels: ''
+assignees: ''
 
-  - type: checkboxes
-    attributes:
-      label: Search before asking
-      description: >
-        Please search the [issues](https://github.com/RearFold/RearFold-AI/issues) to see if a similar feature request already exists.
-      options:
-        - label: >
-            I have searched the RearFold [issues](https://github.com/RearFold/RearFold-AI/issues) and found no similar feature requests.
-          required: true
+---
 
-  - type: textarea
-    attributes:
-      label: Description
-      description: A short description of your feature.
-      placeholder: |
-        What new feature would you like to see in RearFold?
-    validations:
-      required: true
+**Is your feature request related to a problem? Please describe.**
+A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
 
-  - type: textarea
-    attributes:
-      label: Use case
-      description: |
-        Describe the use case of your feature request. It will help us understand and prioritize the feature request.
-      placeholder: |
-        How would this feature be used, and who would use it?
+**Describe the solution you'd like**
+A clear and concise description of what you want to happen.
 
-  - type: textarea
-    attributes:
-      label: Additional
-      description: Anything else you would like to share?
+**Describe alternatives you've considered**
+A clear and concise description of any alternative solutions or features you've considered.
 
-  - type: checkboxes
-    attributes:
-      label: Are you willing to submit a PR?
-      description: >
-        (Optional) We encourage you to submit a [Pull Request](https://github.com/RearFold/RearFold-AI/pulls) (PR) to help improve RearFold for everyone, especially if you have a good understanding of how to implement a fix or feature.
-      options:
-        - label: Yes I'd like to help by submitting a PR!
+**Additional context**
+Add any other context or screenshots about the feature request here.
