@@ -1,10 +1,12 @@
 ---
 name: 🚀 Feature Request
 about: Suggest a RearFold AI idea
-title: ''
+# title: " "
 labels: ''
 assignees: ''
 
 
+
+labels: [enhancement]
 
 ---
