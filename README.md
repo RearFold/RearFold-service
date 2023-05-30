@@ -1,7 +1,7 @@
 <h1 align="center">RearFold AI</h1>
 
 <p align="center">
-  <img src="assets/Logo.png" alt="text" width="number" height="200px" width="600px"/>
+  <img src="assets/Logo.png" alt="text" width="number" height="125px" width="600px"/>
 </p>
 
 <p align="center">
