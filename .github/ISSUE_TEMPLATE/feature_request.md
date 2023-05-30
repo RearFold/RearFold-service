@@ -5,7 +5,7 @@ title: ''
 labels: ''
 assignees: ''
 
----
+
 
 name: 🚀 Feature Request
 description: Suggest a RearFold AI idea
@@ -48,3 +48,4 @@ body:
     attributes:
       label: Additional
       description: Anything else you would like to share?
+---
