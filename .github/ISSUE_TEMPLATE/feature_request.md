@@ -1,3 +1,4 @@
+---
 name: 🚀 Feature Request
 about: Suggest a RearFold AI idea
 # title: " "
@@ -44,3 +45,4 @@ body:
     attributes:
       label: Additional
       description: Anything else you would like to share?
+---
