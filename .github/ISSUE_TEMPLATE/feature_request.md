@@ -1,9 +1,10 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+name: 🚀 Feature Request
+description: Suggest a RearFold AI idea
 title: ''
 labels: ''
 assignees: ''
+
 
 
 ---
