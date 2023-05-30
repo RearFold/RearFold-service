@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for submitting a YOLOv8 🚀 Feature Request!
+        Thank you for submitting a RearFold 🚀 Feature Request!
 
   - type: checkboxes
     attributes:
@@ -15,7 +15,7 @@ body:
         Please search the [issues](https://github.com/RearFold/RearFold-AI/issues) to see if a similar feature request already exists.
       options:
         - label: >
-            I have searched the YOLOv8 [issues](https://github.com/RearFold/RearFold-AI/issues) and found no similar feature requests.
+            I have searched the RearFold [issues](https://github.com/RearFold/RearFold-AI/issues) and found no similar feature requests.
           required: true
 
   - type: textarea
@@ -23,7 +23,7 @@ body:
       label: Description
       description: A short description of your feature.
       placeholder: |
-        What new feature would you like to see in YOLOv8?
+        What new feature would you like to see in RearFold?
     validations:
       required: true
 
@@ -44,6 +44,6 @@ body:
     attributes:
       label: Are you willing to submit a PR?
       description: >
-        (Optional) We encourage you to submit a [Pull Request](https://github.com/RearFold/RearFold-AI/pulls) (PR) to help improve YOLOv8 for everyone, especially if you have a good understanding of how to implement a fix or feature.
+        (Optional) We encourage you to submit a [Pull Request](https://github.com/RearFold/RearFold-AI/pulls) (PR) to help improve RearFold for everyone, especially if you have a good understanding of how to implement a fix or feature.
       options:
         - label: Yes I'd like to help by submitting a PR!
